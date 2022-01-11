@@ -1,4 +1,5 @@
 import './intro.css';
+import Code from '../../img/code.gif'
 
 
 const Intro = () => {
@@ -26,7 +27,9 @@ return (
       </div>
     </div>
 
-    <div className="i-rigth">Rigth</div>
+    <div className="i-rigth">
+        <img src={Me} alt="" className='i-img' />    
+    </div>
   </div>
 );
 
